@@ -11,7 +11,7 @@ import math
 import matplotlib.pyplot as plt
 from scipy.io import wavfile
 
-fs, audio = wavfile.read('./todanudez2.wav')
+fs, audio = wavfile.read('./audio.wav')
  
 x = audio[:,1]
 
